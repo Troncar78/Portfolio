@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>A Propos</title>
+    <link rel="stylesheet" href="style-propos.css">
+</head>
+<body>
+    <section class="banner" id="sec">
+    <header>
+        <a href="#"><img src="Image/gl.png" alt="" class="logo"></a>
+        <div class="content">
+            <h1>À Propos de moi<br></h1>
+        </div>
+        <div id="toggle" onclick="toggle()"></div>
+    </header>
+    <div class="ppe">
+    <div class="contents">
+        <div class="coller">
+        <div class="xcoller">
+            <div class="coller2"><img src="Image/icon1.svg" alt="" class="icon1"><h1>&nbspPRÉSENTATION</h1></div><br>
+        <p class="pres">Je m'appelle Guillaume Lamic, j'ai 19 ans. <br> Je suis actuellement en seconde année de BTS SIO SLAM (Services informatiques aux organisations option solutions logicielles et applications métiers) à l’école F2I à Vincennes et je prépare mes examens pour le BTS session 2022. <br>
+Ce portfolio met à votre disposition mes compétences, mon parcours professionnel, mes projets et les documents utiles aux oraux.</p></div>
+    <img src="Image/pp.png" alt="" class="icon2">
+    </div>
+    <div class="coller2"><img src="Image/cv.svg" alt="" class="icon3"><h1>&nbspCURRICULUM VITAE</h1></div>
+    <p class="cv">Si vous portez de l'intérêt à mon profil et à mes compétences où que vous chercher simplement mon curriculum vitae.<br>
+      Il est entièrement à votre disposition dans le bouton ci-dessous. <br><br></p>
+      <label for="file1" class="bouton"><img src="Image/download.svg" alt="image uplaod" class="upload"> &nbspMon curriculum vitae</label>
+      <a href="/Image/cv-alternance.pdf" target="_blank"><input type="button" id="file1" name="CV" style="display: none"></a>
+    </div>
+    <div class="comp">
+    <div class="competence">
+    <img src="Image/skill.svg" alt="" class="icon3"><h1>&nbspMES COMPÉTENCES</h1></div> <br><br>
+    <div class="budy">
+        <div class="skill-bars">
+          <div class="bar">
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progress-line html">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>CSS</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>Javascript</span>
+            </div>
+            <div class="progress-line jquery">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>PHP</span>
+            </div>
+            <div class="progress-line mysql">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contents2">
+      <div class="coller"><img src="Image/server.svg" alt="" class="image2"><h1>&nbspPARCOURS PROFESSIONNEL</h1></div> <br><br>
+      <h2>Stage :</h2>
+      <div class="coller"><img src="Image/team-tonic-logo.png" alt="" class="image3">
+      <div class="xcoller">
+      <p class="TTS">J’ai effectué mon stage de 6 semaines de 1ère année dans l'entreprise team Tonic Service à Gagny.</p>
+      <p class="TTS2">Team Tonic Services est une entreprise de Team building proposant plus d’une centaine d’activités qui aide à la cohésion d’entreprise, en proposant notamment des activités en distanciel comme en présentiel.</p>
+      <div class="listes"><ul>Au cours de ce stage j’ai pu réaliser les missions suivantes :</ul>
+      <li>Résolution de différent bug du site</li>
+      <li>Nouvelle Interface esthétique</li>
+      <li>Création de nouveau poste</li></div>
+    </div>
+    </div>
+    <div class="coller"><img src="Image/logo.png" alt="" class="image4">
+      <div class="xcoller">
+      <p class="mccs">J’ai effectué mon stage de 4 semaines de 2ème année dans l'entreprise MCCS France à Herblay.</p>
+      <p class="mccs2">MCCS France est une entreprise de travaux de plomberie, de chauffage, contrat de maintenance et dépannage effectuant la rénovation sur le secteur du chauffage, plomberie.</p>
+      <div class="listes"><ul>Au cours de ce stage j’ai pu réaliser les missions suivantes :</ul>
+      <li>Mise en place d'un site vitrine complet</li>
+      <li>Réalisation d'une vidéo d'introduction</li>
+      <li>Possibilité de contact direct par mail depuis le site internet</li></div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="propos.html">A propos</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="veille.html">Veilles</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle(){
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

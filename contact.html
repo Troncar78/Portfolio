@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>A Propos</title>
+    <link rel="stylesheet" href="style-contact.css">
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#"><img src="Image/gl.png" alt="" class="logo"></a>
+            <div class="content">
+                <h1>CONTACT</h1>
+            </div>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="ppe">
+        <div class="contents">
+            <div class="coller">
+            <div class="xcoller">
+                <div class="coller2">
+                    <h1>UNE DEMANDE ? UNE QUESTION ?</h1>
+                    <h2>N'HÉSITEZ PAS À ME CONTACTER POUR TOUTE QUESTION, PROBLÈME, ETC...
+                        JUSTE CI DESSOUS</h2>
+                        <div class="form">
+                    <form action="https://formsubmit.co/guilamic78@gmail.com" method="POST">
+                        <input name="name" type="text" class="feedback-input" placeholder="Nom" />   
+                        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                        <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+                        <input type="submit" value="ENVOYER"/>
+                    </form>
+                        <div class="direct-contact-container">
+                        <ul class="contact-list">
+                            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Carrières-Sur-Seine, Yvelines</span></i></li>
+                            
+                            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(+33) 07 78 51 44 50</a></span></i></li>
+                            
+                            <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">guilamic78@gmail.com</a></span></i></li>
+                            
+                        </ul>
+                        <hr>
+                        <ul class="social-media-list">
+                            <li><a href="https://twitter.com/trc_78" target="_blank" class="contact-icon">
+                            <img src="Image/twitter.png" alt="" class="img"></a>
+                            </li>
+                            <li><a href="https://instagram.com/78_crt" target="_blank" class="contact-icon">
+                            <img src="Image/instagram.svg" alt="" class="img"></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/guillaume-lamic-2146a2228/" target="_blank" class="contact-icon">
+                                <img src="Image/linkedin.png" alt="" class="img"></a>
+                            </li>       
+                        </ul>
+                        <hr>
+                        <div class="copyright"> <br>&copy; TOUT DROITS RÉSERVÉS</div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="propos.html">A propos</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="veille.html">Veilles</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle(){
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
+
